@@ -1,41 +1,28 @@
-# Template repository
+# श्रीकृष्ण
 
-Template repository for the Jetpack Compose [#AndroidDevChallenge](https://developer.android.com/dev-challenge).
+This repository is a Jetpack Compose Playground. Created a simple list using `LazyColumn` with two items in it. Clicking on any item opens a new activity with a data from that particular item.
 
-## Getting started
-Copy this repository by pressing the "Use this template" button in Github.
-Clone your repository and open it in the latest [Android Studio (Canary build)](https://developer.android.com/studio/preview).
+### Screenshot
+| Light | Dark |
+| --- | --- |
+| ![Alt text](/results/screenshot_light.jpg?raw=true "Optional Title") | ![Alt text](/results/screenshot_dark.jpg?raw=true "Optional Title") |
 
-## Submission requirements
-- Follow the challenge description on the project website: [developer.android.com/dev-challenge](https://developer.android.com/dev-challenge)
-- All UI should be written using Jetpack Compose
-- The Github Actions workflow should complete successfully
-- Include two screenshots of your submission in the [results](results) folder. The names should be
-  screenshot_1.png and screenshot_2.png.
-- Include a screen record of your submission in the [results](results) folder. The name should be
-  video.mp4
-- Replace the contents of [README.md](README.md) with the contents of [README-template.md](README-template.md) and fill out the template.
+### Learning
+- `Column`
+- `LazyColumn`
+- `itemsIndexed vs items`
+- `@Preview`
+- `@Composable`
+- `Context`
+- `Surface`
+- `GlideImage - dev.chrisbanes.accompanist:accompanist-glide:0.6.1`
+- `Modifier`
+- `MaterialTheme`
+- `isSystemInDarkTheme`
+- `Theme.kt`
+- `Card - androidx.compose.material.Card`
+- `Row`
+- more to go once Compose comes in stable....
 
-## Code formatting
-The CI uses [Spotless](https://github.com/diffplug/spotless) to check if your code is formatted correctly and contains the right licenses.
-Internally, Spotless uses [ktlint](https://github.com/pinterest/ktlint) to check the formatting of your code.
-To set up ktlint correctly with Android Studio, follow one of the [listed setup options](https://github.com/pinterest/ktlint#-with-intellij-idea).
-
-Before committing your code, run `./gradlew app:spotlessApply` to automatically format your code.
-
-## License
-```
-Copyright 2020 The Android Open Source Project
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+### Android Dev Challenge Teamplate
+This is a non submission repository. Used [Android Dev Challenge Template](https://github.com/android/android-dev-challenge-compose) for learning purpose.
